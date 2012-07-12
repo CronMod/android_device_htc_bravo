@@ -14,10 +14,10 @@ PRODUCT_BRAND   := htc_wwe
 PRODUCT_DEVICE  := bravo
 PRODUCT_MODEL   := HTC Desire
 PRODUCT_MANUFACTURER := HTC
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_bravo \
-BUILD_FINGERPRINT=htc_wwe/bravo/bravo:4.0.4/IML74K:user/release-keys \
-TARGET_BUILD_TYPE=userdebug \
-BUILD_VERSION_TAGS=release-keys \
-PRIVATE_BUILD_DESC="4.0.4 IML74K release-keys"
 
-PRODUCT_CODENAME := bravo
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=bravo \
+    BUILD_ID=IMM76L \
+    BUILD_FINGERPRINT=google/bravo/bravo:4.0.4/IMM76L/299849:userdebug/test-keys \
+    PRIVATE_BUILD_DESC="djmesias 4.0.4 IMM76L 299849 test-keys" \
+    TARGET_BUILD_TYPE=userdebug
