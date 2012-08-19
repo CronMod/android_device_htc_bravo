@@ -219,4 +219,10 @@
     <!-- If this is true, the screen will fade off. -->
     <bool name="config_animateScreenLights">false</bool>
 
+    <!-- Height of the horizontal navigation bar on devices that require it -->
+    <dimen name="navigation_bar_height">24dp</dimen>
+
+    <!-- Width of the vertical navigation bar on devices that require it -->
+    <dimen name="navigation_bar_width">24dp</dimen>
+
 </resources>
