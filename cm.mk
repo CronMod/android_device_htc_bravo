@@ -3,7 +3,7 @@ $(call inherit-product, vendor/cm/config/gsm.mk)
 
 $(call inherit-product, device/htc/bravo/full_bravo.mk)
 
-# Inherit some common evervolv stuff.
+# Inherit some common cyanogenmod stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 #
