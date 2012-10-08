@@ -70,22 +70,22 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_COPY_FILES += \
-    device/htc/bravo/init.bravo.rc:root/init.bravo.rc \
-    device/htc/bravo/init.bravo.usb.rc:root/init.bravo.usb.rc \
-    device/htc/bravo/ueventd.bravo.rc:root/ueventd.bravo.rc
+    device/htc/bravo/prebuilt/init.bravo.rc:root/init.bravo.rc \
+    device/htc/bravo/prebuilt/init.bravo.usb.rc:root/init.bravo.usb.rc \
+    device/htc/bravo/prebuilt/ueventd.bravo.rc:root/ueventd.bravo.rc
 
 # Prebuilt files/configs
 PRODUCT_COPY_FILES += \
-    device/htc/bravo/bravo-keypad.kl:system/usr/keylayout/bravo-keypad.kl \
-    device/htc/bravo/bravo-keypad.kcm:system/usr/keychars/bravo-keypad.kcm \
-    device/htc/bravo/curcial-oj.idc:system/usr/idc/curcial-oj.idc \
-    device/htc/bravo/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl \
-    device/htc/bravo/h2w_headset.kcm:system/usr/keychars/h2w_headset.kcm \
-    device/htc/bravo/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc \
-    device/htc/bravo/synaptics-rmi-touchscreen.kl:system/usr/keylayout/synaptics-rmi-touchscreen.kl \
-    device/htc/bravo/synaptics-rmi-touchscreen.kcm:system/usr/keychars/synaptics-rmi-touchscreen.kcm \
-    device/htc/bravo/vold.fstab:system/etc/vold.fstab \
-    device/htc/bravo/sysctl.conf:system/etc/sysctl.conf
+    device/htc/bravo/prebuilt/bravo-keypad.kl:system/usr/keylayout/bravo-keypad.kl \
+    device/htc/bravo/prebuilt/bravo-keypad.kcm:system/usr/keychars/bravo-keypad.kcm \
+    device/htc/bravo/prebuilt/curcial-oj.idc:system/usr/idc/curcial-oj.idc \
+    device/htc/bravo/prebuilt/h2w_headset.kl:system/usr/keylayout/h2w_headset.kl \
+    device/htc/bravo/prebuilt/h2w_headset.kcm:system/usr/keychars/h2w_headset.kcm \
+    device/htc/bravo/prebuilt/synaptics-rmi-touchscreen.idc:system/usr/idc/synaptics-rmi-touchscreen.idc \
+    device/htc/bravo/prebuilt/synaptics-rmi-touchscreen.kl:system/usr/keylayout/synaptics-rmi-touchscreen.kl \
+    device/htc/bravo/prebuilt/synaptics-rmi-touchscreen.kcm:system/usr/keychars/synaptics-rmi-touchscreen.kcm \
+    device/htc/bravo/prebuilt/vold.fstab:system/etc/vold.fstab \
+    device/htc/bravo/prebuilt/sysctl.conf:system/etc/sysctl.conf
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -93,7 +93,7 @@ PRODUCT_COPY_FILES += \
 
 # media config xml file
 PRODUCT_COPY_FILES += \
-    device/htc/bravo/media_profiles.xml:system/etc/media_profiles.xml
+    device/htc/bravo/prebuilt/media_profiles.xml:system/etc/media_profiles.xml
 
 # Common qsd8k stuff
 $(call inherit-product, device/htc/qsd8k-common/qsd8k.mk)
