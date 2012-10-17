@@ -20,8 +20,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_VERSION_TAGS=release-keys \
     PRIVATE_BUILD_DESC="3.14.405.1 CL96875 release-keys" \
     PRODUCT_NAME=htc_bravo
-
-
-
-
-
