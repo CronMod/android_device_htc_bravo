@@ -19,8 +19,13 @@
 # product configuration (apps).
 #
 
+# The gps configuration appropriate for this device
+$(call inherit-product, device/common/gps/gps_eu_supl.mk)
+
+# The rest of the configuration is inherited from a generic config
+$(call inherit-product, device/htc/bravo/bravo.mk)
+
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/htc/bravo/bravo_eu.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
 # Bravo uses high-density artwork where available

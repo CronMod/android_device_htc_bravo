@@ -66,7 +66,7 @@ BOARD_VENDOR_QCOM_AMSS_VERSION := 3200
 
 BOARD_VENDOR_USE_AKMD := akm8973
 
-BOARD_EGL_CFG := device/htc/bravo/egl.cfg
+BOARD_EGL_CFG := device/htc/bravo/prebuilt/egl.cfg
 
 BOARD_USE_FROYO_LIBCAMERA := true
 

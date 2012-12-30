@@ -22,7 +22,7 @@
 ## (1) First, the most specific values, i.e. the aspects that are specific to GSM
 
 PRODUCT_COPY_FILES += \
-    device/htc/bravo/init.bravo.rc:root/init.bravo.rc
+    device/htc/bravo/prebuilt/init.bravo.rc:root/init.bravo.rc
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=240 \
