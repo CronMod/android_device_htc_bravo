@@ -28,9 +28,6 @@ $(call inherit-product, device/htc/bravo/bravo.mk)
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
-# Bravo uses high-density artwork where available
-PRODUCT_LOCALES += hdpi
-
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := full_bravo
 PRODUCT_DEVICE := bravo

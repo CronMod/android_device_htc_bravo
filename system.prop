@@ -1,0 +1,17 @@
+
+#
+# GSM_BUILD_PROPERTIES
+#
+ro.ril.ecc.HTC-ELL=92,93,94
+ro.ril.ecc.HTC-WWE=999
+ro.ril.enable.a52.HTC-ITA=1
+ro.ril.enable.a53.HTC-ITA=1
+ro.ril.enable.a52=0
+ro.ril.enable.a53=1
+ro.ril.enable.dtm=1
+ro.ril.gprsclass=12
+ro.ril.hsdpa.category=8
+ro.ril.hsupa.category=5
+ro.ril.hsxpa=2
+ro.telephony.default_network=0
+ro.ril.enable.prl.recognition=1
